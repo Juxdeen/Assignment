@@ -1,4 +1,5 @@
-package org.amalitech.javarecap;
+package com.amalitech.javarecap;
+
 
 import java.util.Scanner;
 
@@ -29,7 +30,7 @@ public class JavaRecap {
 	
 	System.out.println("Congratulations, the program has started......");
 	
-	for(int i=0; i<=50; i++ ) {
+	for(int i=0; i<=5; i++ ) {
 	
 	System.out.println("Enter what to display: ");
 
