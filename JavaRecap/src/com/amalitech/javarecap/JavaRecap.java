@@ -30,7 +30,7 @@ public class JavaRecap {
 	
 	System.out.println("Congratulations, the program has started......");
 	
-	for(int i=0; i<=5; i++ ) {
+	for(int i=0; i<=50; i++ ) {
 	
 	System.out.println("Enter what to display: ");
 
@@ -47,9 +47,8 @@ public class JavaRecap {
 	}
 	else if (kybd_input_str.equalsIgnoreCase(code_trigger_ender_str)) {
 		
-	System.out.println("The program has ended");
-	//kybd_input.close();
-	System.exit(0);
+	System.out.println("The program has not started yet, so please enter start to run code");
+	re_run_kybd_input(code_trigger_stater_str);
 	}
 	else {
 	System.out.println(// the user entered the wrong number
