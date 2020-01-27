@@ -30,7 +30,7 @@ public class JavaRecap {
 	
 	System.out.println("Congratulations, the program has started......");
 	
-	for(int i=0; i<=50; i++ ) {
+	while(program_Running_bool==true) {
 	
 	System.out.println("Enter what to display: ");
 
